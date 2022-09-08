@@ -1,0 +1,27 @@
+
+
+<ion-content>
+  <ion-card>
+  <form class="form">    
+    <ion-item lines="full">
+      <img src="assets/SPIT_logo.jpg" alt="SPIT-logo" class="center">
+  <ion-card-title>S.P.I.T</ion-card-title>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" #email required></ion-input>
+    </ion-item> 
+
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" #password required></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col> 
+      <ion-button type="submit" (click)="logIn(email, password)" expand="block">Login</ion-button>
+     <ion-button type="submit" (click)="Signup()" expand="block">Register</ion-button>
+
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-card>
+</ion-content>

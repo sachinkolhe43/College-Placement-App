@@ -1,0 +1,27 @@
+ion-content {
+  --background: url("/assets/bg3.jpg") 0 0/100% 100% no-repeat;
+}
+.form{
+  border-radius: 25px;
+}
+
+ion-card {
+  ion-card-title{
+    margin-left: 40px;
+  }
+
+
+  margin: 80px 20px ;
+  border-radius: 25px;
+ 
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 0;
+  }
+}
